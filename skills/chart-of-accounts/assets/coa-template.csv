@@ -1,0 +1,63 @@
+account_code,account_name,account_type,parent_code,currency,notes
+1000,Cash in Hand,Asset,,PKR,Petty cash and till floats
+1010,Bank - Current Account (PKR),Asset,,PKR,Primary operating account
+1011,Bank - Current Account (USD),Asset,,USD,Export proceeds account
+1020,Bank - Savings Account,Asset,,PKR,Surplus funds
+1100,Trade Receivables - Local,Asset,,PKR,Domestic customer balances
+1110,Trade Receivables - Export,Asset,,USD,Export customer balances (convert at spot)
+1120,Provision for Expected Credit Losses,Asset,,PKR,IFRS 9 ECL provision (contra)
+1200,Raw Materials Inventory,Asset,,PKR,Cotton and yarn stock
+1210,Work in Progress,Asset,,PKR,Goods in production
+1220,Finished Goods Inventory,Asset,,PKR,Ready for sale/shipment
+1300,Prepayments,Asset,,PKR,Insurance and rent paid in advance
+1310,Advances to Suppliers,Asset,,PKR,Pre-delivery payments
+1320,Advance Income Tax,Asset,,PKR,WHT and advance tax credits (s.147-153)
+1400,Land,Asset,,PKR,Freehold land (not depreciated)
+1410,Buildings,Asset,,PKR,Factory and office buildings
+1411,Accumulated Depreciation - Buildings,Asset,1410,PKR,Contra account
+1420,Plant and Machinery,Asset,,PKR,Manufacturing equipment
+1421,Accumulated Depreciation - Plant,Asset,1420,PKR,Contra account
+1430,Vehicles,Asset,,PKR,Delivery and staff vehicles
+1431,Accumulated Depreciation - Vehicles,Asset,1430,PKR,Contra account
+1440,Furniture and Fixtures,Asset,,PKR,Office furniture and fittings
+1441,Accumulated Depreciation - F&F,Asset,1440,PKR,Contra account
+1600,Right-of-Use Assets,Asset,,PKR,IFRS 16 lease assets
+1601,Accumulated Depreciation - ROU,Asset,1600,PKR,Contra account
+2000,Trade Payables - Local,Liability,,PKR,Domestic supplier balances
+2010,Trade Payables - Import,Liability,,USD,Foreign supplier balances
+2100,Accrued Expenses,Liability,,PKR,Period-end accruals
+2110,Salaries and Wages Payable,Liability,,PKR,Month-end salary accrual
+2200,Short-Term Borrowings,Liability,,PKR,Running finance and OD facilities
+2300,Income Tax Payable,Liability,,PKR,Current year tax liability
+2310,Sales Tax Payable,Liability,,PKR,Federal and provincial ST
+2320,WHT Payable,Liability,,PKR,Withholding tax collected not yet remitted
+2400,Provision for Warranties,Liability,,PKR,Product warranty obligations
+2500,Long-Term Loan - HBL,Liability,,PKR,Term finance facility
+2600,Lease Liabilities,Liability,,PKR,IFRS 16 lease obligations
+2700,Gratuity Obligation,Liability,,PKR,Employee end-of-service benefit
+3000,Share Capital,Equity,,PKR,Authorised and issued capital
+3100,Share Premium,Equity,,PKR,Premium on share issuance
+3200,Retained Earnings,Equity,,PKR,Accumulated profits
+3300,Revaluation Reserve,Equity,,PKR,PPE revaluation surplus
+4000,Revenue - Local Sales,Revenue,,PKR,Domestic market revenue
+4010,Revenue - Export Sales,Revenue,,USD,Export revenue (convert at transaction date)
+4100,Other Operating Income,Revenue,,PKR,Scrap sales and miscellaneous
+4200,Finance Income,Revenue,,PKR,Bank profit and investment returns
+5000,Raw Materials Consumed,Cost of Sales,,PKR,Cotton and chemicals
+5100,Direct Labour,Cost of Sales,,PKR,Factory wages and benefits
+5200,Manufacturing Overheads,Cost of Sales,,PKR,Factory utilities and maintenance
+6000,Salaries and Benefits - Admin,Expense,,PKR,Office staff compensation
+6100,Depreciation,Expense,,PKR,All asset classes
+6200,Rent and Occupancy,Expense,,PKR,Non-IFRS 16 leases and utilities
+6300,Professional Fees,Expense,,PKR,Audit and legal fees
+6400,Travel and Entertainment,Expense,,PKR,Business travel and hospitality
+6500,IT and Communications,Expense,,PKR,Software and telecom
+6600,Marketing,Expense,,PKR,Advertising and exhibitions
+7000,Interest on Borrowings,Finance Cost,,PKR,Bank markup on loans
+7100,Interest on Lease Liabilities,Finance Cost,,PKR,IFRS 16 finance charge
+7200,Bank Charges,Finance Cost,,PKR,Service charges and LC fees
+8000,Current Tax Expense,Tax,,PKR,Income tax for the period
+8100,Deferred Tax Expense,Tax,,PKR,Timing difference tax effect
+9000,Intercompany Receivable,Intercompany,,PKR,Due from group entities
+9100,Intercompany Payable,Intercompany,,PKR,Due to group entities
+9900,Suspense Account,Suspense,,PKR,MUST be cleared before period close

@@ -1,0 +1,57 @@
+# This is fictional data for educational purposes only.
+# Crescent Textiles (Pvt) Ltd — Trial Balance as at 30 June 2025
+# Currency: PKR (Pakistani Rupees) — amounts in thousands
+# IFRS-compliant Chart of Accounts
+Account Code,Account Name,Debit (PKR '000),Credit (PKR '000)
+1010,Cash and cash equivalents,12500,
+1020,Trade receivables,38400,
+1025,Allowance for expected credit losses,,1200
+1030,Advances and prepayments,4800,
+1040,Raw materials inventory,22600,
+1041,Work-in-progress inventory,8900,
+1042,Finished goods inventory,14300,
+1050,Property plant and equipment — cost,186000,
+1051,Accumulated depreciation — PPE,,62000
+1060,Right-of-use assets,9500,
+1061,Accumulated depreciation — ROU assets,,3800
+1070,Intangible assets (software),2400,
+1071,Accumulated amortisation — intangibles,,1600
+2010,Trade payables,,28700
+2020,Accrued expenses,,6400
+2030,Advance from customers,,3200
+2040,Current portion of long-term loans,,15000
+2050,Workers welfare fund payable,,1850
+2060,Sales tax payable,,4600
+2070,Withholding tax payable,,2100
+2080,Long-term bank loans,,45000
+2090,Lease liabilities,,6200
+2100,Deferred tax liability,,8400
+2110,Employee benefit obligations,,5600
+3010,Share capital (authorised and paid-up),,50000
+3020,Share premium,,10000
+3030,Retained earnings (opening),,42300
+4010,Export sales revenue,,320000
+4020,Local sales revenue,,180000
+4030,Duty drawback and rebate income,,4500
+5010,Raw materials consumed,196000,
+5020,Direct labour,52000,
+5030,Manufacturing overhead — utilities,28000,
+5040,Manufacturing overhead — depreciation,14000,
+5050,Manufacturing overhead — other,18000,
+6010,Administrative salaries and benefits,22000,
+6020,Office rent and utilities,5400,
+6030,Depreciation — admin assets,3200,
+6040,Legal and professional fees,2800,
+6050,Insurance,3600,
+6060,Communication and IT expenses,1800,
+6070,Travelling and conveyance,2400,
+6080,Selling and distribution expenses,16000,
+6090,Export clearing and forwarding,8400,
+6100,Advertisement and marketing,4200,
+7010,Finance cost — bank loans,7800,
+7020,Finance cost — lease liabilities,950,
+7030,Bank charges and commissions,1200,
+7040,Exchange loss on foreign currency,3600,
+8010,Income tax expense — current,14200,
+8020,Income tax expense — deferred,2400,
+Totals,807350,807350

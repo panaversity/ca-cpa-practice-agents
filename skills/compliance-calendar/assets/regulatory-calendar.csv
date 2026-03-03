@@ -1,0 +1,22 @@
+obligation,regulator,frequency,deadline,penalty_reference,notes
+Corporate income tax return,FBR,Annual,September 30,ITO 2001 s.182 - PKR 40000 or 0.1%/day,For July-June fiscal year entities
+Individual income tax return,FBR,Annual,September 30,ITO 2001 s.182 - PKR 40000 or 0.1%/day,Salaried and non-salaried individuals
+Advance tax Q1,FBR,Quarterly,September 15,Default surcharge KIBOR+3% per s.205,25% of estimated annual tax
+Advance tax Q2,FBR,Quarterly,December 15,Default surcharge KIBOR+3% per s.205,25% of estimated annual tax
+Advance tax Q3,FBR,Quarterly,March 15,Default surcharge KIBOR+3% per s.205,25% of estimated annual tax
+Advance tax Q4,FBR,Quarterly,June 15,Default surcharge KIBOR+3% per s.205,25% of estimated annual tax
+WHT monthly statement,FBR,Monthly,15th of following month,PKR 2500 per day of default,Covers all WHT deductions for the month
+Annual WHT reconciliation,FBR,Annual,Within 2 months of FY end,Per FBR notice,Reconcile monthly statements to annual totals
+Sales tax return (federal),FBR,Monthly,18th of following month,PKR 5000 or 0.1%/day of tax due,Federal excise and sales tax
+Sales tax return - Punjab,PRA,Monthly,15th of following month,Per PRA Act,Services rendered in Punjab
+Sales tax return - Sindh,SRB,Monthly,15th of following month,Per SRB Act,Services rendered in Sindh
+SECP Annual Return (Form A),SECP,Annual,Within 30 days of AGM,PKR 100/day up to PKR 50000,Shareholder and director details
+Annual financial statements,SECP,Annual,Within 30 days of AGM,Companies Act 2017 s.233,Audited statements and directors report
+AGM - Listed company,SECP/PSX,Annual,Within 120 days of FY end,Fine up to PKR 1M + PKR 25000/day,October 28 for June 30 FY entities
+AGM - Private company,SECP,Annual,Within 180 days of FY end,Fine up to PKR 1M + PKR 25000/day,December 27 for June 30 FY entities
+Change of directors (Form 29),SECP,Event-driven,Within 15 days of change,PKR 500/day,Board resolution and new director particulars
+Beneficial ownership (Form 45),SECP,Event-driven,Within 30 days of obtaining info,Fine up to PKR 10M,New SECP requirement - low compliance awareness
+Quarterly accounts - Listed,PSX,Quarterly,Within 30 days of quarter end,PSX listing regulations,Reviewed (not audited) quarterly financials
+EOBI contribution,EOBI,Monthly,15th of following month,EOBI Act 1976 penalties,Employer and employee contributions
+Provincial social security,PESSI/SESSI,Monthly,15th of following month,Provincial ordinance penalties,Employer contribution for eligible employees
+Export proceeds realisation,SBP,Per shipment,120 days (textiles 180 days),SBP penalties and facility restrictions,Track per GD/shipment basis
