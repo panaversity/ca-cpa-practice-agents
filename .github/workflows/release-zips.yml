@@ -19,31 +19,10 @@ jobs:
         run: |
           mkdir -p dist
 
-          # Full repo zip (everything)
-          zip -r dist/ca-cpa-domain-agents-full.zip \
-            skills/ workflow-recipes/ exercises/ references/ \
-            .claude-plugin/ README.md LICENSE \
-            -x '*.git*'
-
-          # Skills only (for learners who just want the SKILL.md files)
-          zip -r dist/ca-cpa-skills-only.zip \
-            skills/ \
-            -x '*.git*'
-
-          # Workflow recipes only
-          zip -r dist/ca-cpa-workflow-recipes.zip \
-            workflow-recipes/ \
-            -x '*.git*'
-
-          # Exercise data only (for practice labs)
+          # Exercise data (primary download for learners)
           zip -r dist/ca-cpa-exercise-data.zip \
             exercises/ \
             -x '*.git*' -x '*/.gitkeep'
-
-          # Domain quick reference
-          zip -r dist/ca-cpa-references.zip \
-            references/ \
-            -x '*.git*'
 
           ls -lh dist/
 
@@ -51,25 +30,15 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/ca-cpa-domain-agents-full.zip
-            dist/ca-cpa-skills-only.zip
-            dist/ca-cpa-workflow-recipes.zip
             dist/ca-cpa-exercise-data.zip
-            dist/ca-cpa-references.zip
           body: |
             ## Chapter 19 Companion Materials
 
-            Download the materials you need:
+            **Download:** `ca-cpa-exercise-data.zip` — trial balances, entity profiles, source documents, and working paper templates for Exercises 1-24.
 
-            | File | Contents | For |
-            |------|----------|-----|
-            | `ca-cpa-domain-agents-full.zip` | Everything | Complete setup |
-            | `ca-cpa-skills-only.zip` | 10 SKILL.md files | Lessons 9-10 |
-            | `ca-cpa-workflow-recipes.zip` | 6 workflow recipes | Lessons 7-8 |
-            | `ca-cpa-exercise-data.zip` | Trial balances, invoices, working papers | Practice Labs (L11-L14) |
-            | `ca-cpa-references.zip` | Domain quick reference | Quick lookup |
+            **For reference skills and workflow recipes**, clone the repo directly:
+            ```bash
+            git clone https://github.com/panaversity/ca-cpa-practice-agents.git
+            ```
 
-            ### Quick Start
-            1. Download `ca-cpa-domain-agents-full.zip`
-            2. Unzip into your Claude Code project: `unzip ca-cpa-domain-agents-full.zip -d .claude/`
-            3. Follow Exercise 24 in Lesson 16
+            See `reference-skills/` for Pakistan-default SKILL.md examples and `workflow-recipes/` for scheduling templates.
