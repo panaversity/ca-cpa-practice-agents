@@ -8,13 +8,13 @@ Exercise data, reference SKILL.md implementations, and workflow recipe templates
 
 ## Quick Start
 
-### Option A: Download exercise data (recommended for learners)
+### Download exercise data
 
-1. Go to the [Releases page](https://github.com/panaversity/ca-cpa-practice-agents/releases/latest)
-2. Download `ca-cpa-exercise-data.zip` — trial balances, entity profiles, source documents, and working paper templates for Exercises 1-24
-3. Unzip into your working folder
+[**Download ca-cpa-exercise-data.zip**](https://github.com/panaversity/ca-cpa-practice-agents/releases/latest/download/ca-cpa-exercise-data.zip) — trial balances, entity profiles, source documents, and working paper templates for Exercises 1-24.
 
-### Option B: Clone the repo (for reference skills + workflow recipes too)
+Unzip into your working folder and you're ready for Lesson 2.
+
+### Want reference skills and workflow recipes too?
 
 ```bash
 git clone https://github.com/panaversity/ca-cpa-practice-agents.git
