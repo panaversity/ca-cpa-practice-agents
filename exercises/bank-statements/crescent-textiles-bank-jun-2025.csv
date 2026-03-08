@@ -1,0 +1,46 @@
+Bank_Name,National Bank of Pakistan - SITE Branch
+Account_Number,0142-7890123-001
+Account_Holder,Crescent Textiles (Pvt) Ltd
+Currency,PKR
+Statement_Period,01-Jun-2025 to 30-Jun-2025
+All_Amounts_In,PKR Thousands
+
+Date,Reference,Description,Debit_PKR_000,Credit_PKR_000,Balance_PKR_000
+01-Jun-2025,,,,,15200
+02-Jun-2025,TT-2341,Export LC Proceeds - Hamburg Textilhaus GmbH,,12400,27600
+03-Jun-2025,CHQ-4508,Pak Cotton Trading Co - Raw Cotton Invoice PCT-4421,8500,,19100
+05-Jun-2025,TT-2342,Salary Transfer Jun-2025 (Factory Floor),4200,,14900
+07-Jun-2025,CHQ-4509,Faisalabad Electric Supply Co - May Bill,2800,,12100
+10-Jun-2025,TT-2343,Export LC Proceeds - Primark Supply Chain Ltd,,8600,20700
+12-Jun-2025,CHQ-4510,Engro Polymer & Chemicals - Dyestuff Invoice,3200,,17500
+14-Jun-2025,DD-0891,FBR WHT Payment - Section 153 (May 2025),1400,,16100
+15-Jun-2025,TT-2344,Salary Transfer Jun-2025 (Management & Admin),3800,,12300
+17-Jun-2025,CHQ-4511,SSGC - Factory Gas Bill May 2025,1600,,10700
+19-Jun-2025,TT-2345,Local Sales Receipt - Metro Cash & Carry,,4800,15500
+20-Jun-2025,CHQ-4512,Jubilee General Insurance - Annual Premium,900,,14600
+23-Jun-2025,TT-2346,Export LC Proceeds - Inditex Group SA,,6400,21000
+25-Jun-2025,CHQ-4513,National Logistics Corp - Export Shipping,2400,,18600
+26-Jun-2025,DD-0892,FBR Sales Tax Payment - June 2025,3100,,15500
+27-Jun-2025,CHQ-4514,Pak Cotton Trading Co - 2nd Consignment,1800,,13700
+30-Jun-2025,BC-0623,Bank Charges & LC Commission - June 2025,200,,13500
+
+Closing_Balance_Per_Statement,13500
+
+RECONCILING_ITEMS
+Type,Reference,Description,Amount_PKR_000
+Outstanding_Cheque,CHQ-4521,Pak Cotton Trading Co - Advance Payment (dated 28-Jun),1200
+Outstanding_Cheque,CHQ-4522,Northern Dyes & Chemicals (dated 29-Jun),850
+Outstanding_Cheque,CHQ-4523,Faisalabad Electric Supply Co - Jun Bill (dated 30-Jun),800
+Deposit_In_Transit,TT-PENDING,Export LC Proceeds - HBL Collection (deposited 30-Jun),1650
+Bank_Charges_Not_In_GL,BC-0623,Bank Charges & LC Commission - June 2025,200
+
+RECONCILIATION_SUMMARY
+Item,Amount_PKR_000
+Bank_Statement_Closing_Balance,13500
+Add_Deposits_In_Transit,1650
+Less_Outstanding_Cheques,-2850
+Adjusted_Bank_Balance,12300
+GL_Cash_Balance_Per_TB,12500
+Less_Bank_Charges_Not_Recorded,-200
+Adjusted_GL_Balance,12300
+Difference,0

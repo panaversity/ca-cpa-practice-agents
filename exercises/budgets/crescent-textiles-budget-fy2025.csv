@@ -1,0 +1,47 @@
+Entity,Crescent Textiles (Pvt) Ltd
+Period,FY 2024-25 (July 2024 - June 2025)
+Currency,PKR Thousands
+Note,Budget approved by Board of Directors 15-Jun-2024. Monthly budget is annual / 12 unless seasonally adjusted.
+
+Account_Code,Account_Name,Annual_Budget_PKR_000,Annual_Actual_PKR_000,Variance_PKR_000,Variance_Pct,Jun_Budget_PKR_000,Jun_Actual_PKR_000,Jun_Variance_PKR_000
+4010,Export Sales,340000,320000,-20000,-5.9%,32000,28800,-3200
+4020,Local Sales,175000,180000,5000,2.9%,16000,17200,1200
+4030,Duty Drawback / Export Rebate,5100,4500,-600,-11.8%,480,420,-60
+,Total Revenue,520100,504500,-15600,-3.0%,48480,46420,-2060
+5010,Raw Materials Consumed,187000,196000,-9000,-4.8%,17500,18200,-700
+5020,Direct Labour,50000,52000,-2000,-4.0%,4200,4500,-300
+5030,Manufacturing Utilities,25000,28000,-3000,-12.0%,2200,2800,-600
+5040,Manufacturing Depreciation,14000,14000,0,0.0%,1167,1167,0
+5050,Manufacturing Overhead (Other),16000,18000,-2000,-12.5%,1400,1700,-300
+,Total COGS,292000,308000,-16000,-5.5%,26467,28367,-1900
+,Gross Profit,228100,196500,-31600,-13.9%,22013,18053,-3960
+6010,Administrative Salaries,21000,22000,-1000,-4.8%,1750,1900,-150
+6020,Office Rent,5400,5400,0,0.0%,450,450,0
+6030,Administrative Depreciation,3000,3200,-200,-6.7%,250,270,-20
+6040,Legal & Professional Fees,2500,2800,-300,-12.0%,210,350,-140
+6050,Insurance,3600,3600,0,0.0%,300,300,0
+6060,Communication & IT,1700,1800,-100,-5.9%,142,160,-18
+6070,Travel & Entertainment,2200,2400,-200,-9.1%,185,280,-95
+6080,Selling & Distribution,14500,16000,-1500,-10.3%,1300,1600,-300
+6090,Export Clearing & Forwarding,7800,8400,-600,-7.7%,730,820,-90
+6100,Advertisement & Marketing,3800,4200,-400,-10.5%,350,450,-100
+,Total Operating Expenses,65500,69800,-4300,-6.6%,5667,6580,-913
+,Operating Profit (EBIT),162600,126700,-35900,-22.1%,16347,11473,-4874
+7010,Interest on Bank Loans,7200,7800,-600,-8.3%,600,680,-80
+7020,Interest on Lease Liabilities,900,950,-50,-5.6%,75,85,-10
+7030,Bank Charges & Commission,1000,1200,-200,-20.0%,85,110,-25
+7040,Exchange Loss / (Gain),1500,3600,-2100,-140.0%,200,850,-650
+,Total Finance Costs,10600,13550,-2950,-27.8%,960,1725,-765
+,Profit Before Tax,152000,113150,-38850,-25.6%,15387,9748,-5639
+8010,Current Tax Expense,19760,14200,5560,28.1%,2000,1350,650
+8020,Deferred Tax Expense,3800,2400,1400,36.8%,380,220,160
+,Total Tax,23560,16600,6960,29.5%,2380,1570,810
+,Profit After Tax,128440,96550,-31890,-24.8%,13007,8178,-4829
+
+KEY_VARIANCE_DRIVERS
+Priority,Account,Variance_PKR_000,Root_Cause
+1,Export Sales,-20000,EU demand softened Q3-Q4; two major orders from Hamburg Textilhaus delayed to FY 2025-26
+2,Raw Materials Consumed,-9000,Cotton spot price increased 12% above budgeted rate due to Sindh flood impact on domestic crop
+3,Exchange Loss,-2100,PKR depreciated 4.2% against USD in Q4 vs budgeted 1.5% annual depreciation; hedging programme covered only 60% of exposure
+4,Manufacturing Utilities,-3000,NEPRA tariff revision in Jan 2025 (+18%) not anticipated in budget; gas tariff increased 15% in Mar 2025
+5,Selling & Distribution,-1500,Additional freight costs from Red Sea shipping disruption; rerouting via Cape of Good Hope added 8-12 days transit

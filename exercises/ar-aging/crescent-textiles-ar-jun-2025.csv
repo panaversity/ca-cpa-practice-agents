@@ -1,0 +1,41 @@
+Entity,Crescent Textiles (Pvt) Ltd
+As_At,30-Jun-2025
+Currency,PKR Thousands
+Total_Trade_Receivables,38400
+Allowance_For_ECL,1200
+Net_Receivables,37200
+
+Customer_Name,Customer_Type,Invoice_Number,Invoice_Date,Due_Date,Amount_PKR_000,Days_Outstanding,Aging_Bucket,Notes
+Hamburg Textilhaus GmbH,Export - EU,INV-2025-0587,05-Jun-2025,05-Jul-2025,5200,25,Current (0-30),LC confirmed; payment expected on maturity
+Hamburg Textilhaus GmbH,Export - EU,INV-2025-0542,12-May-2025,11-Jun-2025,3000,49,31-60 days,LC matured 11-Jun; proceeds in transit from advising bank
+Primark Supply Chain Ltd,Export - EU,INV-2025-0591,15-Jun-2025,15-Jul-2025,4400,15,Current (0-30),LC confirmed; shipment delivered Karachi port
+Primark Supply Chain Ltd,Export - EU,INV-2025-0568,28-May-2025,27-Jun-2025,2400,33,31-60 days,LC matured 27-Jun; awaiting discrepancy resolution (BL date mismatch)
+Inditex Group SA,Export - EU,INV-2025-0598,22-Jun-2025,22-Jul-2025,5400,8,Current (0-30),LC confirmed; goods in transit
+Target Corporation,Export - US,INV-2025-0594,18-Jun-2025,18-Jul-2025,2800,12,Current (0-30),LC confirmed via Citibank NY
+Target Corporation,Export - US,INV-2025-0551,20-May-2025,19-Jun-2025,1400,41,31-60 days,Payment received 03-Jul-2025 (post year-end)
+Metro Cash & Carry Pakistan,Local - Wholesale,INV-2025-0596,20-Jun-2025,20-Jul-2025,2200,10,Current (0-30),30-day credit terms
+Metro Cash & Carry Pakistan,Local - Wholesale,INV-2025-0560,22-May-2025,21-Jun-2025,1600,39,31-60 days,Overdue; payment follow-up sent 25-Jun
+Al-Fatah Department Store,Local - Retail,INV-2025-0585,02-Jun-2025,02-Jul-2025,1500,28,Current (0-30),30-day credit terms
+Al-Fatah Department Store,Local - Retail,INV-2025-0525,18-Apr-2025,18-May-2025,900,73,61-90 days,Dispute on quality of lot CT-2025-0418; credit note under review
+Chase Up Supermarkets,Local - Retail,INV-2025-0590,12-Jun-2025,12-Jul-2025,1000,18,Current (0-30),30-day credit terms
+Chase Up Supermarkets,Local - Retail,INV-2025-0502,25-Mar-2025,24-Apr-2025,800,97,91+ days,Customer experiencing cash flow difficulties; partial payment PKR 200 received May
+Hyperstar (Carrefour Pakistan),Local - Retail,INV-2025-0588,08-Jun-2025,08-Jul-2025,1600,22,Current (0-30),30-day credit terms
+Karachi Foods (Pvt) Ltd,Related Party,INV-2025-0575,30-May-2025,29-Jun-2025,1500,31,31-60 days,Intercompany - packaging materials; net settlement pending
+Karachi Foods (Pvt) Ltd,Related Party,INV-2025-0595,19-Jun-2025,19-Jul-2025,1000,11,Current (0-30),Intercompany - packaging materials June delivery
+Various Small Customers,Local - Mixed,Various,Various,Various,1700,Various,Mixed,8 invoices; PKR 800 current / PKR 500 (31-60) / PKR 400 (61-90)
+
+AGING_SUMMARY
+Aging_Bucket,Amount_PKR_000,Percentage
+Current (0-30 days),25900,67.4%
+31-60 days,8900,23.2%
+61-90 days,1900,4.9%
+91+ days,1700,4.4%
+Total,38400,100.0%
+
+ECL_ASSESSMENT
+Aging_Bucket,Gross_PKR_000,ECL_Rate,ECL_PKR_000,Basis
+Current (0-30 days),25900,0.5%,130,Historical loss rate for current receivables
+31-60 days,8900,2.0%,178,Adjusted for Primark BL discrepancy and Metro overdue
+61-90 days,1900,15.0%,285,Al-Fatah quality dispute; individual assessment
+91+ days,1700,35.3%,600,Chase Up cash flow difficulties; individual assessment + Various small customer historical default
+Total,38400,,1193,Rounded to PKR 1200 per management policy (immaterial difference of PKR 7)

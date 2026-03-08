@@ -1,0 +1,59 @@
+Entity,Crescent Textiles (Pvt) Ltd
+Period,11 months ended 31-May-2025
+Currency,PKR Thousands
+Note,Month 11 of FY 2024-25 (Jul 2024 - Jun 2025). Balance sheet at month-end; income/expense are YTD cumulative.
+
+Account_Code,Account_Name,Debit_PKR_000,Credit_PKR_000
+1010,Cash and Bank Balances,15200,
+1020,Trade Receivables,35600,
+1025,Allowance for Expected Credit Losses,,1100
+1030,Advances and Prepayments,5200,
+1040,Inventories - Raw Materials,24800,
+1041,Inventories - Work in Progress,7600,
+1042,Inventories - Finished Goods,16200,
+1050,Property Plant and Equipment - Cost,186000,
+1051,Property Plant and Equipment - Accumulated Depreciation,,60800
+1060,Right-of-Use Assets,9500,
+1061,Right-of-Use Assets - Accumulated Depreciation,,3500
+1070,Intangible Assets (Software),2400,
+1071,Intangible Assets - Accumulated Amortisation,,1500
+2010,Trade and Other Payables,,26400
+2020,Accrued Expenses,,5800
+2030,Advance from Customers,,2900
+2040,Current Portion of Long-Term Loans,,15000
+2050,Workers Welfare Fund Payable,,1700
+2060,Sales Tax Payable,,4200
+2070,Withholding Tax Payable,,1900
+2080,Long-Term Bank Loans,,45000
+2090,Lease Liabilities,,6200
+2100,Deferred Tax Liability,,8200
+2110,Employee Benefit Obligations - Gratuity,,5400
+3010,Share Capital,,50000
+3020,Share Premium,,10000
+3030,Retained Earnings (Opening Balance),,42300
+4010,Export Sales,,291200
+4020,Local Sales,,162800
+4030,Duty Drawback / Export Rebate,,4080
+5010,Raw Materials Consumed,177800,
+5020,Direct Labour,47500,
+5030,Manufacturing Utilities,25200,
+5040,Manufacturing Depreciation,12800,
+5050,Manufacturing Overhead (Other),16300,
+6010,Administrative Salaries,20100,
+6020,Office Rent,4950,
+6030,Administrative Depreciation,2930,
+6040,Legal and Professional Fees,2450,
+6050,Insurance,3300,
+6060,Communication and IT,1640,
+6070,Travel and Entertainment,2120,
+6080,Selling and Distribution Expenses,14400,
+6090,Export Clearing and Forwarding,7580,
+6100,Advertisement and Marketing,3750,
+7010,Interest on Bank Loans,7120,
+7020,Interest on Lease Liabilities,865,
+7030,Bank Charges and Commission,1090,
+7040,Exchange Loss,2750,
+8010,Current Tax Expense,12850,
+8020,Deferred Tax Expense,2180,
+,TOTAL,739675,739680
+,Rounding Difference (PKR 5 thousand),,
